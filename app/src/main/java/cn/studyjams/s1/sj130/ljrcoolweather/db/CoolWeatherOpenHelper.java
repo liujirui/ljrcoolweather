@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteOpenHelper;
  */
 public class CoolWeatherOpenHelper extends SQLiteOpenHelper {
     /*
-    建province表语句
+    建province表语句，autoincrement表示id自动增长
      */
     public static final String CREATE_PROVINCE = "create table Province ("
             + "id integer primary key autoincrement, "
